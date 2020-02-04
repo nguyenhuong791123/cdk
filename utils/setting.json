@@ -1,12 +1,12 @@
 {
-    "stack": "InsCdkStack"
-    ,"account": "710626597572"
+    "stack_name": "CdkStack"
+    ,"account_id": "710626597572"
     ,"region": "ap-northeast-1"
     ,"ami": "ami-011facbea5ec0363b"
-    ,"vpc": "InsVPC"
+    ,"vpc_name": "CdkVPC"
     ,"cidr": "10.0.0.0/16"
-    ,"type": "t2.micro"
-    ,"subnetId": ""
-    ,"security": [ "launch-wizard-3" ]
-    ,"ec2": "InsNginx"
+    ,"ec2_type": "t2.micro"
+    ,"subnet_id": ""
+    ,"sg_name": "CdkSG"
+    ,"ec2_name": "CdkNginx"
 }

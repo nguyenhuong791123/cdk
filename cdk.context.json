@@ -1,5 +1,12 @@
 {
   "@aws-cdk/core:enableStackNameDuplicates": "true",
-  "aws-cdk:enableDiffNoFail": "true"
-  ,"availability-zones:account=710626597572:region=ap-northeast-1": [ "ap-northeast-1a", "ap-northeast-1c" ]
+  "aws-cdk:enableDiffNoFail": "true",
+  "availability-zones:account=710626597572:region=ap-northeast-1": [
+    "ap-northeast-1a",
+    "ap-northeast-1c"
+  ],
+  "hosted-zone:account=710626597572:domainName=smartapp.tk:region=ap-northeast-1": {
+    "Id": "/hostedzone/ZO4ROFDEYE5GE",
+    "Name": "smartapp.tk."
+  }
 }
